@@ -129,11 +129,16 @@ main{
     height: 680px;
 }
 
+.back-icon{
+margin-top: 100px;
+}
+
 .container-box .back-icon img{
     height: 50px;
     margin: 10px;
     float: left;
 }
+
 .left-side{
     margin-top: 40px;
     width: 50%;
@@ -173,4 +178,13 @@ main{
 
 .container img{
     height: 20px;
+}
+
+.container-input-file{
+    margin-bottom: 50px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+
 }
