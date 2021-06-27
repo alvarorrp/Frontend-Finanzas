@@ -9,7 +9,44 @@
     width: 100%;
     background-color: #f0e8e8;
 }
+/* NAV CONTAINER */
 
+.nav-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    color: white;
+    background-color: #0d1225;
+}
+
+.logo{
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+.nav-links{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li{
+   list-style: none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+
+
+/*  */
 .container-menu{
     background-color:  #ffffff;
     width: 340px;
