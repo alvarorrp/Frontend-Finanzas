@@ -4,11 +4,7 @@
     font-family: 'Ropa Sans', sans-serif;
 }
 
-.desing{
-    height: 100hv;
-    width: 100%;
-    background-color: #f0e8e8;
-}
+
 /* NAV CONTAINER */
 
 .nav-container{
@@ -30,7 +26,7 @@
     padding: 0;
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 30%;
 }
 
 .nav-links li{
@@ -44,13 +40,22 @@
     font-size: 14px;
 }
 
+/* CONTAINER INICIO */
+
+.container.inicio{
+    display: flex;
+    
+}
 
 
-/*  */
+
+/* CONTAINER MENU */
+
 .container-menu{
     background-color:  #ffffff;
     width: 340px;
-    height: 100vh;
+    height: 91vh;
+
 /* Para centrar los items */
     float: left;
     display: flex;
@@ -106,4 +111,18 @@
     float: left;
 }
 
+/* CONTAINER DASHBOARD */
 
+.desing{ 
+    background-color: #f0e8e8;
+    border: tomato 5px solid;
+}
+
+.container-dashboard{
+    display: flex;
+    height: 92vh;
+}
+
+.titulo-item{
+    height: 80px;
+}
