@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+
+/* NAV CONTAINER */
+
+.nav-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    color: white;
+    background-color: #0d1225;
+}
+
+.logo{
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+.nav-links{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li{
+   list-style: none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.select a{
+    color: rgb(63, 183, 219);
+}
+
+.nav-links a:hover{
+    color: rgb(63, 183, 219);
+
+}
+
+/* MAIN */
+main{
+
+}
+
+/* CONTAINER INICIO */
+.container-inicio{
+    height: 92vh;
+    background-color: #0d1225;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+/* CONTAINER INICIO - LEFT SIDE*/
+.left-side{
+    width: 50%;
+
+}
+
+.left-side .title{
+
+}
+
+.left-side .title h1{
+    color: white;
+    font-size: 100px;
+}
+
+.left-side .sub-title{
+    margin-left: 150px;
+    text-align: left;
+}
+
+.left-side .sub-title h3{
+    font-size: 20px;
+    color: rgb(211, 211, 211);
+}
+
+/* CONTAINER INICIO - RIGHT SIDE*/
+
+.right-side{
+    width: 50%;
+}
+
+.right-side img{
+    width: 100%;
+}
+
+/* CONTAINER-NOSOTROS */
+.container-nosotros{
+    height: 420px;
+    background-color: #EAF3FA;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* CONTAINER-NOSOTROS LEFT-SIDE */
+.container-nosotros .left-side{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-nosotros .left-side .title h2{
+    font-size: 40px;
+}
+
+.container-nosotros .left-side .sub-title{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 70%;
+}
+
+.container-nosotros .left-side .sub-title h3{
+    font-size: 20px;
+    color: #1b3650;
+}
+
+/* CONTAINER-NOSOTROS RIGHT-SIDE */
+.right-side .imagen img{
+    height: 320px;
+    width: auto;
+}
+
+/* CONTAINER-STARTUP */
+.container-startups{
+    height: 540px;
+    background-color:  #0d1225;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.container-startups .title{
+    color: white;
+   text-align: center;
+    font-size: 10px;
+}
+
+.container-startups .container-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.container-startups .container-cards .card{
+    margin-top: 40px;
+    margin-right: 30px;
+
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
